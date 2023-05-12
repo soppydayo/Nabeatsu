@@ -37,7 +37,7 @@
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="plusButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="w5i-Rj-uAk"/>
+                                    <action selector="plusButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="k5B-oz-0kf"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZPH-Qc-10D">
@@ -47,7 +47,7 @@
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="clearButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="bMg-jl-uTr"/>
+                                    <action selector="clearButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hon-kg-z3v"/>
                                 </connections>
                             </button>
                         </subviews>

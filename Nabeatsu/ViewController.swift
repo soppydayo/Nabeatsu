@@ -10,10 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    
+    let maxnumber = 500
     var number: Int = 0
     @IBOutlet var countLabel: UILabel!
     @IBOutlet var faceLabel: UILabel!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -24,8 +26,8 @@ class ViewController: UIViewController {
         if number % 3 == 0 {
             return true
         }
-
-
+        
+        
         // 問題4: 3がつくかどうか調べる
         var checkNum: Int = number
         while checkNum != 0 {
@@ -35,12 +37,17 @@ class ViewController: UIViewController {
                 checkNum = checkNum / 10
             }
         }
-                
-        // 問題4をやるときは問題3と問題2の答えを消してから書こう
-
         
-       return false
+        // 問題4をやるときは問題3と問題2の答えを消してから書こう
+        
+        
+        return false
     }
+    
+    
+    
+    
+    
     @IBAction func plusButton(){
         number = number + 1
         countLabel.text = String(number)
@@ -54,7 +61,6 @@ class ViewController: UIViewController {
         }
     }
     
-    
     //clearボタンの挙動
     @IBAction func clearButton(){
         number = 0
@@ -62,7 +68,8 @@ class ViewController: UIViewController {
         faceLabel.text = "(゜o゜)"
         
     }
-
-
 }
+
+
+
 
